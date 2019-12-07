@@ -1,5 +1,7 @@
 # Docker + Rust + OSXCross
 
+[![Build Status](https://cloud.drone.io/api/badges/katharostech/docker_rust-osxcross/status.svg)](https://cloud.drone.io/katharostech/docker_rust-osxcross)
+
 Rust Docker image with OSXCross installed for cross compiling Rust projects for OSX.
 
 This image is mean primarily to build off of for your builds. While it does contain the tools installed, it does not have any scripts to run the actual build.
