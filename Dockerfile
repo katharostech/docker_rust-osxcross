@@ -11,5 +11,5 @@ RUN \
   wget https://s3.dockerproject.org/darwin/v2/MacOSX10.11.sdk.tar.xz && \
   cd /build/osxcross && \
   UNATTENDED=yes OSX_VERSION_MIN=10.7 ./build.sh && \
-  echo 'PATH="$PATH:/build/osxcross/target/bin"' >> /etc/profile && \
+  echo 'PATH="$PATH:/build/osxcross/target/bin"' >> /root/.bashrc && \
   ln -s /build/osxcross/target/SDK/MacOSX10.11.sdk/System/ /System
