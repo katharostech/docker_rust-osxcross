@@ -25,6 +25,7 @@ steps:
     settings:
       repo: katharostech/rust-osxcross
       tags:
+        - latest
         - rust-latest_${DRONE_TAG}
       username:
         from_secret: docker-username
